@@ -1,0 +1,44 @@
+@charset "UTF-8";
+#myTodoThings{ /*나의 해야할 일들*/
+  transform: rotate(-35deg);
+  color : rgb(35,95,114);
+  font-weight: 900;
+  width: 200px;
+  float: left;
+  font-size: 24px;
+}
+
+#addBtn{ /*새로운 todo등록 버튼*/
+  float: right;
+  background-color: rgb(21,163,247);
+  color : white;
+  width: 200px;
+  height: 40px;
+  font-size: 15px;
+  margin-right: 70px;
+  margin-top: 20px;
+}
+
+li{
+  list-style: none;
+}
+
+body>section>div{
+  float:left;
+  width: 320px;
+  margin-left: 10px;
+  margin-right: 10px;
+  }
+
+body>section>div>ul>li{
+  width : 300px;
+  height: 90px;
+}
+
+
+body>section{
+  float:left;
+  width: 1110px;
+  margin-left: 70px;
+  margin-right: 70px;
+}
